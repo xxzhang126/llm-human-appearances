@@ -75,8 +75,8 @@ def main():
         time.sleep(1)
 
     df = pd.DataFrame(results)
-    df.to_excel("attractiveness_results.xlsx", index=False)
-    print("\n结果已保存到 attractiveness_results.xlsx")
+    df.to_excel("xxx.xlsx", index=False)
+    print("Saved in xxx.xlsx")
 
 if __name__ == "__main__":
     main()

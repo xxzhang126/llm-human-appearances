@@ -12,5 +12,6 @@ venv/
 
 # Raw data should not be pushed
 raw data/
+results/
 
 

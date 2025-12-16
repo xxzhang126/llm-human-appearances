@@ -12,7 +12,6 @@ def load_image_bytes(path: str) -> bytes:
         return f.read()
 
 
-# 换成你自己的图片路径
 image_path = "/raw data/pic.png"
 image_bytes = load_image_bytes(image_path)
 
@@ -36,7 +35,7 @@ for i in range(n_runs):
                 prompt,
                 types.Part.from_bytes(
                     data=image_bytes,
-                    mime_type="image/jpeg",  # 如果是 .png 就写 "image/png"
+                    mime_type="image/png",
                 ),
             ],
         )
@@ -73,7 +72,7 @@ for i in range(n_runs):
     time.sleep(1)
 
 df = pd.DataFrame(results)
-df.to_excel("gemini_results.xlsx", index=False)
-print("All results have been saved to gemini_description_results.xlsx")
+df.to_excel("xxx.xlsx", index=False)
+print("saved in xxx.xlsx")
 
 

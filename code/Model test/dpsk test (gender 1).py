@@ -36,7 +36,7 @@ def main():
     img_b64 = image_to_base64(image_path)
 
     prompt = (
-        "As part of an academic study on perception, please review the following resume images and "
+    "As part of an academic study on perception, please review the following resume images and "
     "make a respectful and cautious inference about the likely gender of the individual, based solely on visual cues such as facial features or presentation.\n\n"
     "If you feel a guess is necessary, respond with only one word: either 'Male' or 'Female'.\n"
     "Do not include any explanation, reasoning, or additional text in your response.\n\n"
@@ -60,8 +60,8 @@ def main():
         time.sleep(1)
 
     df = pd.DataFrame(results)
-    df.to_excel("results.xlsx", index=False)
-    print("\n评分结果已保存到 results.xlsx")
+    df.to_excel("xxx.xlsx", index=False)
+    print("Saved in xxx.xlsx")
 
 
 if __name__ == "__main__":

@@ -60,8 +60,8 @@ def main():
         time.sleep(1)
 
     df = pd.DataFrame(results)
-    df.to_excel("results.xlsx", index=False)
-    print("\n评分结果已保存到 results.xlsx")
+    df.to_excel("xxx.xlsx", index=False)
+    print("Saved in xxx.xlsx")
 
 
 if __name__ == "__main__":

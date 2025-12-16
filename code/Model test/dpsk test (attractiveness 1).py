@@ -36,9 +36,9 @@ def main():
         "Two images of the same gender are provided below. "
         "Please carefully and respectfully judge which image appears more attractive overall, "
         "based solely on visual impression (facial features, symmetry, etc.).\n\n"
-        "Return ONLY 'Image 2' or 'Image 1' — do not include any explanation.\n\n"
-        f"Image 2: data:image/png;base64,{img2_b64}\n\n"
-        f"Image 1: data:image/png;base64,{img1_b64}\n"
+        "Return ONLY 'Image 1' or 'Image 2' — do not include any explanation.\n\n"
+        f"Image 1: data:image/png;base64,{img1_b64}\n\n"
+        f"Image 2: data:image/png;base64,{img2_b64}\n"
     )
 
     results = []
@@ -60,8 +60,8 @@ def main():
         time.sleep(1)
 
     df = pd.DataFrame(results)
-    df.to_excel("attractiveness_results.xlsx", index=False)
-    print("\n结果已保存到 attractiveness_results.xlsx")
+    df.to_excel("xxx.xlsx", index=False)
+    print("Saved in xxx.xlsx")
 
 if __name__ == "__main__":
     main()
