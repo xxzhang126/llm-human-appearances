@@ -4,6 +4,8 @@
 - `code/KS test power analysis/` – Scripts for KS test power analysis.
 - `code/Model test/` – Scripts for testing major LLMs capability in processing vision (read gender and attractiveness).
 - `code/Results visuals/` – Scripts for visualizing each comparable sets of the results.
+- `code/Robustness_Tests/` – Monte Carlo simulations for candidate ranking bias analysis by job type.
+- `code/Robustness_Tests/AITwin_Evaluations/` – Scripts to simulate AI evaluator decisions matched on HR evaluators’ demographic profiles (“AI twin” analysis).
 - `raw data/` – Original resume data.
 - `results/LLM/` – Summarized results from LLM (GPT-4o) runs.
 - `results/KS Power Analysis/` – Summarized results for KS power analysis.
