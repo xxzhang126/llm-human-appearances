@@ -5,10 +5,6 @@
 - `code/Model test/` – Scripts for testing major LLMs capability in processing vision (read gender and attractiveness).
 - `code/Results visuals/` – Scripts for visualizing each comparable sets of the results.
 - `code/Robustness Tests/` – Robustness test scripts combining Monte Carlo simulations for job-type candidate ranking bias and AI evaluator decision simulations matched to HR evaluators’ demographic profiles.
-- `raw data/` – Original resume data.
-- `results/LLM/` – Summarized results from LLM (GPT-4o) runs.
-- `results/KS Power Analysis/` – Summarized results for KS power analysis.
-- `results/Model Test/` – Summarized results for testing major LLMs capability in processing vision.
 
 ## Computational Pipeline
 Data preprocessing, LLM-based experiments, and visualization are conducted in Python.
