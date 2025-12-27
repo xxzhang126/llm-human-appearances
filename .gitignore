@@ -11,6 +11,7 @@ venv/
 .DS_Store
 
 # Raw data should not be pushed
+Results/
 results/
 raw_data/
 
